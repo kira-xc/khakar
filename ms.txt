@@ -1,4 +1,5 @@
 import sys, os
+sys.stdout = open(os.devnull, 'w')
 a='i'
 b='m'
 c='p'
